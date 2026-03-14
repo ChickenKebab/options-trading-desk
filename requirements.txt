@@ -1,0 +1,62 @@
+altair==6.0.0
+attrs==25.4.0
+beautifulsoup4==4.14.3
+blinker==1.9.0
+cachetools==7.0.5
+certifi==2026.2.25
+cffi==2.0.0
+charset-normalizer==3.4.5
+click==8.3.1
+contourpy @ file:///opt/miniconda3/conda-bld/contourpy_1763643921048/work
+curl_cffi==0.13.0
+cycler @ file:///Users/ec2-user/croot/cycler_1766067937020/work
+fonttools @ file:///opt/miniconda3/conda-bld/fonttools_1765445183405/work
+frozendict==2.4.7
+gitdb==4.0.12
+GitPython==3.1.46
+idna==3.11
+iniconfig==2.3.0
+Jinja2==3.1.6
+joblib @ file:///Users/ec2-user/croot/joblib_1767868074826/work
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+kiwisolver @ file:///opt/miniconda3/conda-bld/kiwisolver_1764159426452/work
+MarkupSafe==3.0.3
+matplotlib==3.10.8
+multitasking==0.0.12
+narwhals==2.18.0
+numpy @ file:///Users/ec2-user/croot/numpy_and_numpy_base_1770732576999/work/dist/numpy-2.4.2-cp311-cp311-macosx_12_0_arm64.whl#sha256=8700a6a298764a5388842512d0b122beb2514fbd71caaa3d3ac885edf64c0de2
+packaging @ file:///opt/miniconda3/conda-bld/packaging_1761049079066/work
+pandas==2.3.3
+peewee==4.0.1
+pillow @ file:///Users/ec2-user/croot/pillow_1772475248595/work
+platformdirs==4.9.4
+plotly==6.6.0
+pluggy==1.6.0
+protobuf==6.33.5
+pyarrow==23.0.1
+pycparser==3.0
+pydeck==0.9.1
+Pygments==2.19.2
+pyparsing @ file:///opt/miniconda3/conda-bld/pyparsing_1763973786267/work
+pytest==9.0.2
+python-dateutil @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_66ud1l42_h/croot/python-dateutil_1716495741162/work
+pytz==2026.1.post1
+referencing==0.37.0
+requests==2.32.5
+rpds-py==0.30.0
+scikit-learn @ file:///Users/ec2-user/croot/scikit-learn_1766097961875/work
+scipy @ file:///Users/ec2-user/croot/scipy_1773254227980/work/dist/scipy-1.17.1-cp311-cp311-macosx_12_0_arm64.whl#sha256=00d9d9b6daee4fa35c503ce38a1b7213f67c8286383b1dc001873029c1b5be25
+six @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_03myqm7p6o/croot/six_1744271511946/work
+smmap==5.0.3
+soupsieve==2.8.3
+streamlit==1.55.0
+tenacity==9.1.4
+threadpoolctl @ file:///opt/miniconda3/conda-bld/threadpoolctl_1764361580622/work
+toml==0.10.2
+tornado @ file:///Users/ec2-user/croot/tornado_1765992648472/work
+typing_extensions==4.15.0
+tzdata==2025.3
+urllib3==2.6.3
+websockets==16.0
+yfinance==1.2.0

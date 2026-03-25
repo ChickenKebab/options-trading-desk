@@ -1,3 +1,11 @@
+'''
+black_scholes.py
+
+Provides the tools for pricing a European Option using Black Scholes. 
+
+It takes in the current stock price, strike price, risk free rate, volatility and time until expiry.
+Calculates d1,d2 and the option price.
+'''
 import numpy as np
 from scipy.stats import norm
 
@@ -27,11 +35,7 @@ class EuropeanOption:
         return d2
     
     def price(self):
-
         
-        
-        
-
         if self.option_type == 'call':
             call_price = self.S*(norm.cdf(self.d1))-self.K*np.exp(-self.r*self.T)*(norm.cdf(self.d2))
             return call_price
@@ -41,13 +45,13 @@ class EuropeanOption:
             return put_price
         
 
-## TEST
 
-if __name__ == "__main__":
-    call = EuropeanOption(S=150, K=150, r=0.05, sigma=0.25, T=1, option_type='call')
-    print(f"d1: {call.d1:.4f}")
-    print(f"d2: {call.d2:.4f}")
-    print(f"Call Price: ${call.price():.4f}")
+
+#if __name__ == "__main__":
+   # call = EuropeanOption(S=150, K=150, r=0.05, sigma=0.25, T=1, option_type='call')
+   # print(f"d1: {call.d1:.4f}")
+   # print(f"d2: {call.d2:.4f}")
+  #  print(f"Call Price: ${call.price():.4f}")
     
-    put = EuropeanOption(S=150, K=150, r=0.05, sigma=0.25, T=1, option_type='put')
-    print(f"Put Price: $ {put.price():.4f}")
+   # put = EuropeanOption(S=150, K=150, r=0.05, sigma=0.25, T=1, option_type='put')
+   # print(f"Put Price: $ {put.price():.4f}")

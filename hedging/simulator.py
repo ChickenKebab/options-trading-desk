@@ -1,3 +1,12 @@
+'''
+simulator.py
+
+Simulates delta hedging a European option position over time.
+
+Sells N options at t=0, builds a replicating portfolio using the Black-Scholes 
+delta, and rebalances at a fixed interval until expiry. Tracks portfolio value, 
+cash, shares and delta at every step.
+'''
 import numpy as np
 from greeks.analytical import EuropeanOptionsWithGreeks
 from hedging.gbm import stock_price
@@ -109,23 +118,9 @@ class HedingSimulatorEngine:
         ax2.legend()
         ax2.grid(True, alpha=0.3)
 
-        plt.tight_layout()
-        plt.show()
+        return fig
 
 
-
-
-        
-if __name__ == "__main__":
-    generated_stock_prices = stock_price(150, 90, 1, 0.25, 0.05)
-
-    engine = HedingSimulatorEngine(0.05, 1, 150, 90/365, 0.25, 'call', 1000)
-
-    engine.run(generated_stock_prices)
-    engine.results(generated_stock_prices)
-
-
-        
 
 
 

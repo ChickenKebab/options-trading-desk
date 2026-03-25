@@ -1,3 +1,9 @@
+'''
+monte_carlo.py
+
+Uses Monte Carlo to price the option.
+The reason for this is to compare it to the Black Scholes Option Price.
+'''
 import numpy as np
 
 class MonteCarlo:

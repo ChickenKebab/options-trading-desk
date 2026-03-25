@@ -1,3 +1,8 @@
+'''
+visualisations.py
+
+Plots all of the greeks vs the stock price.
+'''
 import numpy as np
 import matplotlib.pyplot as plt
 from greeks.analytical import EuropeanOptionsWithGreeks
@@ -47,8 +52,7 @@ def plot_greeks_vs_stock_price(K, r, sigma, T, option_type):
         ax.set_xlabel('Stock Price ($)')
         ax.grid(True, alpha=0.3)
     
-    plt.tight_layout()
-    plt.show()
+    return fig
 
 
 

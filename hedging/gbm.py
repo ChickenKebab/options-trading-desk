@@ -1,3 +1,9 @@
+'''
+gbp.py
+
+Uses Geometric Brownian Motion to simulate a realistic stock price path.
+This is used for simulating the replicating portfolio in simulator.py
+'''
 import numpy as np
 
 

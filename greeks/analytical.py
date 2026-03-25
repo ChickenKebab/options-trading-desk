@@ -1,3 +1,9 @@
+'''
+analytical.py
+
+Builds on the EuropeanOption class by providing tools for calculating each greek.
+'''
+
 from pricing.black_scholes import EuropeanOption
 import numpy as np
 from scipy.stats import norm

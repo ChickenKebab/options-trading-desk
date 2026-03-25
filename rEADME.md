@@ -45,3 +45,14 @@ README.md
 3. Greeks tab — visualises how each Greek changes across stock prices
 4. Hedge Simulator tab — simulates dynamic delta hedging, set rebalancing frequency to see the impact on hedging error
 5. Volatility Smile tab — pulls real market data and plots the implied volatility surface
+
+
+## Screenshots
+
+
+![Screen1](img/option_screen_1.png)
+![Screen2](img/option_screen_2.png)
+![Screen3](img/option_screen_3.png)
+![Screen4](img/option_screen_4.png)
+![Screen4.1](img/option_screen_4_2.png)
+![Screen5](img/option_screen_5.png)

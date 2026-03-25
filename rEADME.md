@@ -53,6 +53,6 @@ README.md
 ![Screen1](img/option_screen_1.png)
 ![Screen2](img/option_screen_2.png)
 ![Screen3](img/option_screen_3.png)
-![Screen4](img/option_screen_4.png)
+![Screen4](img_2/option_screen_4.png)
 ![Screen4.1](img/option_screen_4_2.png)
 ![Screen5](img/option_screen_5.png)
